@@ -1,0 +1,202 @@
+html {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 16px;
+    display: block;
+}
+
+body {
+    background-color: white;
+    text-align: center;
+}
+
+.image-container {
+    overflow: hidden;
+}
+
+.image-container img {
+    display: block;
+    max-width: 100%;
+}
+
+.center {
+    text-align: center;
+}
+
+.main {
+    position: relative;
+}
+
+/* Header */
+
+header {
+    background-image: linear-gradient(66deg, #ffffff 0%, rgba(255, 255, 255, 0.86) 6%), url('https://foxfinancial.team/wp-content/uploads/2022/12/custom-luxury-home-1.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    padding-bottom: 2.5rem;
+    margin: 0 auto;
+}
+
+header .nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.nav img {
+    display: block;
+    max-width: 60%;
+    margin-top: 6rem;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.navbar a {
+    display: inline-block;
+    padding: .666rem .666rem;
+    color: rgb(34, 34, 34);
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: rgb(255, 56, 56);
+}
+
+
+/* Product */
+
+.product {
+    background-image: linear-gradient(66deg, rgba(255, 0, 0, 0.609) 0%, rgba(255, 0, 0, 0.771) 6%), url(http://foxfinancialrealty.com/wp-content/uploads/2018/07/stldwntwn.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    padding-bottom: 1rem;
+}
+
+.product h2 {
+    background-color: white;
+    font-size: 2rem;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin: 0 0;
+}
+
+.product p {
+    display: block;
+    background-color: white;
+    padding: 1rem 4rem;
+    max-width: 600px;
+    min-width: 100px;
+}
+
+.one {
+    margin: 1rem auto 2rem auto;
+}
+.two {
+    margin: 2rem auto 0 auto;
+}
+
+.product img {
+    display: block;
+    max-height: 80px;
+}
+
+@media only screen and (max-width: 400px) {
+    .product p {
+        padding: 1rem 2rem;
+    }
+}
+
+/* Team */
+
+.team-container {
+    background-color: rgb(220, 220, 220);
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.team-container h2 {
+    display: inline-block;
+    background-color: white;
+    font-size: 2rem;
+    padding: .5rem 5.25rem;
+    margin: 0 0;
+}
+
+.team-section {
+    display: flex;
+    justify-content: center;
+    padding: 0 5%;
+    flex-wrap: wrap;
+}
+
+.team {
+    padding: 1.5rem;
+    margin: 1.5rem 5%;
+    background-color: white;
+}
+
+.team .content h3 {
+    font-size: 1.75rem;
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+.team .content p {
+    font-size: 1.25rem;
+}
+
+.team .image-container {
+    width: 16.75rem;
+    height: 19rem;
+}
+
+
+/* Mission Statement */
+
+.missionstatement {
+    background-color: rgb(255, 56, 56);
+}
+
+.missionstatement .container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.statement p {
+    font-family: 'Tahoma', sans-serif;
+    font-style: italic;
+    font-size: 1.25rem;
+    color: white
+}
+
+.fox-image img {
+    max-width: 5rem;
+}
+
+
+/* Footer */
+
+footer h2 {
+    font-size: 2rem;
+    font-weight: 300;
+    padding-top: 1.5rem;
+}
+
+footer h4 {
+    font-size: .75rem;
+    font-weight: 300;
+    padding-top: 1.5rem;
+}
